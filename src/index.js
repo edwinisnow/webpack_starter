@@ -1,3 +1,9 @@
 import './styles/main.scss'
+import laughing from './assets/laughing.svg'
+
+
+const laughImage = document.getElementById('laughImg')
+laughImage.src = laughing
+
 console.log('Hello! how  are you')
-console.logs('Hello! how  are you today')
+console.log('Hello! how  are you today')
